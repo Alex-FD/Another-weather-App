@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OWM_app</title>
+<!--    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-pro/css/all.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="assets/wi-lib/normalize.css">
+    <link rel="stylesheet" href="assets/wi-lib/weather-icons-wind.css">
+    <link rel="stylesheet" href="assets/wi-lib/weather-icons.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body class="day">
+<section class="container">
+    <div class="row">
+        <div class="search-form">
+            <input class="search-form__input search-form__text" type="text" name="city" placeholder="город:">
+            <button class="search-form__button search-form__text">ok</button>
+        </div>
+        <div class="degree-box">
+            <span id="celsius" class="degree-box__btn degree-box__btn_left degree-box__text">c</span>
+            <span id="fahrenheit" class="degree-box__btn degree-box__btn_right degree-box__text">f</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="current-pos">
+            <span class="current-pos__text">текущее местоположение</span
+            ><span class="current-pos__location">
+            <i class="fas fa-location-arrow"></i>
+<!--                <i class="fal fa-location-arrow"></i>-->
+            </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="description">
+            <span class="description__elem description__text"><i class="wi wi-des"></i></span>
+            <span id="deg" class="description__elem description__text">0</span>
+            <span class="description__elem description__text description__text_deg">&deg;</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="description">
+            <span id="description" class="current-pos__text"></span>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="footer__box">
+             <div class="footer__elem footer__elem_windmill">
+                 <span class="blade" style="background-image: url('assets/img/blades.png')"></span>
+                 <span class="pole" style="background-image: url('assets/img/pole.png')"></span>
+            </div>
+        </div>
+        <div class="footer__box">
+            <span class="footer__elem footer__text footer__text_description">Ветер<i class="wi wi-dir"></i></span>
+            <span class="footer__elem footer__text footer__text_figures"></span>
+            <span class="footer__elem footer__text footer__text_figures"></span>
+        </div>
+        <div class="footer__box">
+            <span class="footer__elem footer__text footer__text_description">Давление</span>
+            <span class="footer__elem footer__text footer__text_figures"></span>
+        </div>
+        <div class="footer__box">
+            <span class="footer__elem footer__text footer__text_description">Влажность</span>
+            <span class="footer__elem footer__text footer__text_figures"></span>
+        </div>
+        <div class="footer__box">
+            <span class="footer__elem footer__text footer__text_description">Облачность</span>
+            <span class="footer__elem footer__text footer__text_figures"></span>
+        </div>
+    </div>
+</section>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
