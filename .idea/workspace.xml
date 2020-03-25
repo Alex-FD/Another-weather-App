@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9063de2-626f-4bbc-8169-ad2797e55186" name="Default Changelist" comment="" />
+    <list default="true" id="e9063de2-626f-4bbc-8169-ad2797e55186" name="Default Changelist" comment="main.js is prettified">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X1FAOUgU5c15PFgntqIqaQaZCI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +24,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/prettier.cmd" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,17 +39,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580205549448</updated>
-      <workItem from="1580205550548" duration="651000" />
+      <workItem from="1580205550548" duration="1308000" />
+      <workItem from="1580212882396" duration="11000" />
+      <workItem from="1585155151173" duration="430000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main.js is prettified" />
+    <option name="LAST_COMMIT_MESSAGE" value="main.js is prettified" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="617" y="215" key="#Inspections" timestamp="1585155420776">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="215" key="#Inspections/0.0.2048.1112@0.0.2048.1112" timestamp="1585155420776" />
     <state x="889" y="474" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580205680361">
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
     <state x="889" y="474" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1390@0.0.2560.1390" timestamp="1580205680361" />
+    <state x="943" y="377" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580206491826">
+      <screen x="0" y="0" width="2560" height="1390" />
+    </state>
+    <state x="943" y="377" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1390@0.0.2560.1390" timestamp="1580206491826" />
+    <state x="649" y="150" key="CommitChangelistDialog2" timestamp="1585155391435">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="649" y="150" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1585155391435" />
+    <state x="693" y="335" key="EditFileWatcherDialog" timestamp="1585155297590">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="693" y="335" key="EditFileWatcherDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1585155297590" />
+    <state x="805" y="310" key="FileChooserDialogImpl" timestamp="1585155295676">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="805" y="310" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1585155295676" />
+    <state x="1006" y="387" key="FileChooserDialogImpl/0.0.2560.1390@0.0.2560.1390" timestamp="1580212891596" />
+    <state x="533" y="199" key="SettingsEditor" timestamp="1585155306606">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="533" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1585155306606" />
   </component>
 </project>
