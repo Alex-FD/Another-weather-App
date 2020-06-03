@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const URL = "http://api.openweathermap.org/data/2.5/weather?";
   const APPID = "1be4f38ab943b366bfbf42919abf5ba5"; //Enter your APPID here
 
   let app = {
     isActive: false,
-    init: function() {
+    init: function () {
       this.isActive = true;
       let clsBtn = getElement("degree-box__btn_left", "class", 0);
       let input = getElement("search-form__input", "class", 0);
@@ -13,12 +13,12 @@ document.addEventListener("DOMContentLoaded", function() {
       clsBtn.classList.add("active");
       input.value = "";
     },
-    convertDegrees: function() {
+    convertDegrees: function () {
       let degBtn = getElement("degree-box__btn", "class");
       let param = getElement("deg", "id");
       let btnArr = Array.prototype.slice.call(degBtn);
-      btnArr.forEach(function(btn) {
-        btn.onclick = function() {
+      btnArr.forEach(function (btn) {
+        btn.onclick = function () {
           if (this.classList.contains("active")) {
             return false;
           } else if (this.getAttribute("id") === "celsius") {
@@ -35,10 +35,10 @@ document.addEventListener("DOMContentLoaded", function() {
         };
       });
     },
-    focusInput: function() {
+    focusInput: function () {
       let input = getElement("search-form__input", "class", 0);
       let placeHolder = input.placeholder;
-      input.onfocus = function() {
+      input.onfocus = function () {
         this.placeholder = "";
         this.value = null;
         if (this.parentElement.classList.contains("error")) {
@@ -46,18 +46,18 @@ document.addEventListener("DOMContentLoaded", function() {
           this.classList.remove("error");
         }
       };
-      input.onblur = function() {
+      input.onblur = function () {
         this.placeholder = placeHolder;
       };
     },
-    getCurrentPos: function() {
+    getCurrentPos: function () {
       let currentLocationBtn = getElement("fa-location-arrow", "class", 0);
       currentLocationBtn.addEventListener("click", getNavigationData);
     },
-    getWeatherData: function() {
+    getWeatherData: function () {
       let searchBtn = getElement("search-form__button", "class", 0);
       searchBtn.addEventListener("click", requestData);
-    }
+    },
   };
 
   function requestData() {
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
       city: cityName,
       lang: "ru",
       units: "metric",
-      APPID: APPID
+      APPID: APPID,
     };
     let method = "GET";
     let url = URL + createQuery(params);
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
       showErrorAlert();
     } else {
       xhr.send();
-      xhr.onreadystatechange = function() {
+      xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
           let jsonObj = JSON.parse(xhr.responseText);
           clsBtn.classList.add("active");
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
       humidity: data.main.humidity,
       cloudiness: data.clouds.all,
       icon: data.weather[0].icon,
-      ID: data.weather[0].id
+      ID: data.weather[0].id,
     };
     setIconCode(weatherForecast);
     setTemperature(weatherForecast);
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function() {
       let options = {
         enableHighAccuracy: true,
         timeout: Infinity,
-        maximumAge: 0
+        maximumAge: 0,
       };
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
@@ -171,14 +171,14 @@ document.addEventListener("DOMContentLoaded", function() {
         lat: navObject.coords.latitude,
         accuracy: navObject.coords.accuracy,
         altitude: navObject.altitude,
-        heading: navObject.heading
+        heading: navObject.heading,
       };
       let params = {
         lat: coordObj.lat,
         lon: coordObj.lon,
         units: "metric",
         lang: "ru",
-        APPID: APPID
+        APPID: APPID,
       };
       let method = "GET";
       let url = URL + createQuery(params);
@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function() {
       let xhr = new XMLHttpRequest();
       xhr.open(method, url, true);
       xhr.send();
-      xhr.onreadystatechange = function() {
+      xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
           let jsonObj = JSON.parse(xhr.responseText);
           displayLocation(jsonObj);
@@ -422,7 +422,7 @@ document.addEventListener("DOMContentLoaded", function() {
       case 5.5 <= speed && speed <= 7.9:
         return "умеренный";
       case 8 <= speed && speed <= 10.7:
-        return "свежый";
+        return "свежий";
       case 10.8 <= speed && speed <= 13.8:
         return "сильный";
       case 13.9 <= speed && speed <= 17.1:
@@ -478,7 +478,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function showElements() {
     let elements = getElement("description__elem", "class");
     let elemArr = Array.prototype.slice.call(elements);
-    elemArr.forEach(function(elem) {
+    elemArr.forEach(function (elem) {
       elem.classList.add("active");
     });
   }

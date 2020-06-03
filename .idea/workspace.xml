@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9063de2-626f-4bbc-8169-ad2797e55186" name="Default Changelist" comment="main.js is prettified">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="e9063de2-626f-4bbc-8169-ad2797e55186" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/main.js" afterDir="false" />
     </list>
@@ -19,14 +18,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/prettier.cmd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="SvnConfiguration">
@@ -41,12 +40,25 @@
       <updated>1580205549448</updated>
       <workItem from="1580205550548" duration="1308000" />
       <workItem from="1580212882396" duration="11000" />
-      <workItem from="1585155151173" duration="430000" />
+      <workItem from="1585155151173" duration="517000" />
+      <workItem from="1586939572243" duration="727000" />
+      <workItem from="1590150178623" duration="1063000" />
+      <workItem from="1591096312946" duration="1200000" />
+      <workItem from="1591160670200" duration="368000" />
+      <workItem from="1591161058283" duration="405000" />
     </task>
+    <task id="LOCAL-00001" summary="main.js is prettified">
+      <created>1585155597184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585155597184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main.js is prettified" />
@@ -65,22 +77,26 @@
       <screen x="0" y="0" width="2560" height="1390" />
     </state>
     <state x="943" y="377" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1390@0.0.2560.1390" timestamp="1580206491826" />
-    <state x="649" y="150" key="CommitChangelistDialog2" timestamp="1585155391435">
+    <state x="649" y="150" key="CommitChangelistDialog2" timestamp="1585155596590">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="649" y="150" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1585155391435" />
+    <state x="649" y="150" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1585155596590" />
     <state x="693" y="335" key="EditFileWatcherDialog" timestamp="1585155297590">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="693" y="335" key="EditFileWatcherDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1585155297590" />
-    <state x="805" y="310" key="FileChooserDialogImpl" timestamp="1585155295676">
+    <state x="805" y="310" key="FileChooserDialogImpl" timestamp="1586940436086">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="310" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1585155295676" />
+    <state x="805" y="310" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1586940436086" />
     <state x="1006" y="387" key="FileChooserDialogImpl/0.0.2560.1390@0.0.2560.1390" timestamp="1580212891596" />
     <state x="533" y="199" key="SettingsEditor" timestamp="1585155306606">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1585155306606" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1585155605807">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1585155605807" />
   </component>
 </project>
